@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');" />
+    <link rel="stylesheet"
+        href="@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');" />
+    <title>ROOMS</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .landing{
+        width: 100%;
+        min-height: 100vh;
+        background-image: url(ralph-ravi-kayden-zSG-kd-L6vw-unsplash.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .box1 {
+            /*width: 90vw;*/
+            background-color: rgb(217, 221, 225);
+            height: 12vh;
+            /* border: 2px solid black; */
+        }
+        li{
+          font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+            display: inline-block;
+            padding: 20px;
+            position: relative;
+            left: 60vw;
+        }
+
+        .head {
+            display: inline-flex;
+            position: relative;
+            bottom: 70px;
+            padding-right: 10px;
+        }
+        .taj {
+            display: flex;
+            font-family: "Playfair Display", serif;
+            width: 15vw;
+            font-size: 90px;
+            color: aliceblue;
+            justify-content: center;
+            align-content: center;
+            /* text-align: center; */
+            /* border: 2px solid black; */
+            position: relative;
+            top: 10vh;
+            left: 40px;
+        }
+        .search {
+            position: relative;
+            right: -1369px;
+            top: -135px;
+            width: 135px;
+            height: 30px;
+
+
+            font: size 20px;
+            background: #72003D;
+            border-radius: 25px;
+            border-color: #72003D;
+            color: white;
+            z-index: 1;
+        }
+       
+        .hotel {
+            display: flex;
+            font-family: "Playfair Display", serif;
+            width: 15vw;
+            font-size: 60px;
+            color: aliceblue;
+            justify-content: center;
+            /* border: 2px solid black; */
+            position: relative;
+            top: 10vh;
+            left: 80px;
+        }
+
+        .cont {
+            display: flex;
+            font-family: "Montserrat", sans-serif;
+            width: 35vw;
+            height: 15vh;
+            font-size: 20px;
+            color: aliceblue;
+            justify-content: center;
+            /* border: 2px solid black; */
+            position: relative;
+            top: 10vh;
+            left: 80px;
+        }
+        .book {
+            display: flex;
+            background-color: rgb(114, 00, 61);
+            border-color: #72003D;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            width: 11vw;
+            height: 6vh;
+            position: relative;
+            left: 45vw;
+            top: 19vh;
+            color: aliceblue;
+            font-family: "Montserrat", sans-serif;
+            border-radius: 10px;
+            padding-top: 0.5rem;
+            filter: drop-shadow(-10px 10px 50px rgba(0, 0, 0, 0.25));
+        }
+        .logo{
+          padding: 2px 10px;
+        }
+         .box {
+            height: 90vh;
+            /* border: 2px solid black; */
+            background-image: url(abc.jpg);
+            background-repeat: no-repeat;
+            background-size: 1600px 650px;
+        }
+        #wel {
+            display: flex;
+            /* font-family: 'Kolker Brush', cursive; */
+            font-family: "Montserrat", sans-serif;
+            width: 20vw;
+            font-size: 40px;
+            color: aliceblue;
+            justify-content: center;
+            /* border: 2px solid black; */
+            position: relative;
+            top: 10vh;
+            left: 40px;
+        }
+
+      #scroll{
+        color: white;
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            position: relative;
+            top: 200px;
+            font-weight: bold;
+            font-size: 20px;
+
+      }
+
+      #down {
+            position: relative;
+            left:750px;
+            top: 220px;
+            width: 50px;
+        }
+#meh{
+        position: absolute;
+        width: 800px;
+        height: 80px;
+        left: 450px;
+        top: 750px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 80px;
+        /* identical to box height */
+        letter-spacing: 0.05em;
+        color: #14274A;
+}
+
+#eh{
+    position: absolute;
+    width: 1304px;
+    height: 107px;
+    left: 120px;
+    top: 850px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #14274A;
+}
+.bx1{
+    filter: drop-shadow(-30px 30px 4px rgba(0, 0, 0, 0.25));
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 350px;
+    top: 1050px;
+    background: #FFFFFF;
+    border: 2px solid #8E744B;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#img1{
+    position: absolute;
+    width: 797px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#sr{
+    position: absolute;
+    width: 797px;
+    height: 80px;
+    top: 430px;
+    color: white;
+    background: #8E744B;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+}
+#uh{
+    position: absolute;
+    top:520px;
+    left:100px;
+    width: 60px;
+    height: 70px;
+}
+
+#rd1{
+    position: absolute;
+    width: 282px;
+    height: 29px;
+    top:540px;
+    left:120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #14274A;
+}
+
+#sq1{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    color: white;
+    top: 540px;
+    left:500px;
+    background: #72003D;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.first{
+    position: relative;
+    top:-700px;
+            
+}
+.second{
+    width: 100%;
+    position: relative;
+    top:100px;
+}
+
+.third{
+    width: 100%;
+    position: relative;
+    top:900px;
+}
+.bx2 {
+    height: 250px;
+    width: 1517px;
+    background: #72003D;
+    position:relative ;
+    top:1900px;  
+}
+.tri{     
+	width: 200px;
+    background: #72003D;
+	height: 200px;
+	transform: rotate(-45deg);
+    position: relative;
+    top: 1650px;
+    left: 650px;
+}
+
+#email{
+    position: relative;
+    top:1560px;
+    color: white;
+    left: 1200px;
+    width:200px;
+    height: 30px;
+    border-color: #8E744B;
+    border: 3px solid #8E744B;
+}
+
+#e{
+    position: relative;
+    top:1550px;
+    left: 1200px;
+    color: #8E744B;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+
+#em{
+    height: 35px;
+    position: relative;
+    top:1560px;
+    background-color: #8E744B;;
+    left: 1200px;
+    width: 40px;
+    color: #72003D;
+    border-color: #72003D;
+    
+
+}
+
+.hh{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 194.9%;
+    /* or 31px */
+    color: #8E744B;
+    position: relative;
+    top:1425px;
+    }
+
+#tj{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.15em;
+    color: #8E744B;
+    position: absolute;
+    left:190px;
+    top:1920px;
+}
+
+#ht{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.6em;
+    color: #8E744B;
+    position: absolute;
+    left:200px;
+    top:1980px;
+}
+
+#add{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    width:200px;
+    color: #8E744B;
+    position: absolute;
+    left:200px;
+    top:2030px;
+}
+
+#abt{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #8E744B;
+    position: absolute;
+    left:600px;
+    top:1950px;
+}
+
+#fb{
+    position: absolute;
+    left:900px;
+    top:1955px;
+}
+
+#tw{
+    position: absolute;
+    left:900px;
+    top:2095px;
+}
+
+#int{
+    position: absolute;
+    left:900px;
+    top:2025px;
+}
+  </style>
+  </head>
+
+  <body>
+    <header>
+        <div class="box1">
+            <div class="logo">
+                <img src="taj.png" alt="" class="logo" width="80px" />
+            </div>
+            <ul>
+                <li class="head">HOME</li>
+                <li class="head">SERVICES</li>
+                <li class="head" onclick="location.href='index.html'"> <u>ROOMS</u></li>
+                <li class="head">CONTACT-US</li>
+            </ul>
+            <button class="search">Search</button>
+            <li class="head"></li>
+        </div>
+    </header>
+
+        <section class="landing">
+            <div class="box">
+                <p id="wel">Welcome To</p>
+                <p class="taj">TAJ</p>
+                <p class="hotel">HOTELS</p>
+                <p class="cont">
+                    Enjoy your stay and enjoy luxury redefined at most affordable prices
+                </p>
+                <button class="book">Book Now</button>
+                <pre id="scroll">    Scroll</pre>
+                <img id="down" src="down.png" alt="down" />
+        </section>
+    
+
+    <section class="first">
+      <div class="bleh">
+          <p id="meh">ROOMS AND SPACES</p>
+          <p id="eh">Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes,comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces.
+          
+          </p>
+          <div class="bx1">
+              <img id="img1" src="1.jpg" alt="">
+              <div id="sr">SINGLE ROOM</div>
+              <img id="uh" src="uh.png">
+              <p id="rd1">ROOM DETAILS</p>
+              <p id="sq1">Rs XXX  Avg/night</p>
+            </div>
+          </div>          
+
+      </section>
+
+      <section class="second">
+        <div class="bx1">
+            <img id="img1" src="2.jpg" alt="">
+            <div id="sr">DOUBLE ROOM</div>
+            <img id="uh" src="uh.png">
+            <p id="rd1">ROOM DETAILS</p>
+            <p id="sq1">Rs XXX  Avg/night</p>
+          </div>
+        </div>          
+    </section>
+
+    <section class="third">
+        <div class="bx1">
+            <img id="img1" src="3.jpg" alt="">
+            <div id="sr">TWIN ROOM</div>
+            <img id="uh" src="uh.png">
+            <p id="rd1">ROOM DETAILS</p>
+            <p id="sq1">Rs XXX  Avg/night</p>
+        </div>
+        
+          <div class="bx2"></div>
+          <div class="tri"></div>
+          
+            <form action="/action_page.php">
+                <label id="e" for="email">Subscribe to our newsletter</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+                <button id="em">OK</button>
+              </form>
+           <div>
+            <li class="hh">Facebook</li><br>
+                <li class="hh">Instagram</li><br>
+                <li class="hh">Twitter</li><br>
+           </div>
+           <div>
+            <p id="tj">TAJ</p>
+            <p id="ht">HOTELS</p>
+            <p id="add">297,Lavelle Road,Bengaluru,Karnataka
+                +44 345 678 903
+                taj_hotels@gmail.com</p>
+           </div>
+           <div id="abt">
+            <p>About Us</p><br>
+            <p>Contacts</p><br>
+            <p>Terms & Conditions</p>
+           </div>
+
+           <div id="sm">
+            <br> <img id="fb" src="fb.png"><br>
+            <img id="tw"src="tw.png"><br>  
+            <img id="int" src="int.png"><br>
+           </div>
+
+      </body>
+</html>
